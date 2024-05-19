@@ -1,4 +1,10 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
+import mapitbhopalLogo from "../assets/images/mapitbhopal_logo.jpg";
+import dinifyLogo from "../assets/images/D.jpg";
+import tirthLogo from "../assets/images/1695973282682.jpg";
+import singlebitLogo from "../assets/images/WhatsApp Image 2024-05-19 at 1.55.56 PM.jpeg";
+
+
 import {
     car,
     contact,
@@ -111,59 +117,64 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-];
+        "title": "Machine Learning Intern",
+        "company_name": "IT State Center, Bhopal",
+        "icon": mapitbhopalLogo, // Updated icon
 
+        "iconBg": "#accbe1",
+        "date": "May 2024",
+        "points": [
+            "Developed and fine-tuned face recognition models using OpenCV, dlib, and the face_recognition library to achieve high accuracy and performance.",
+            "Implemented CMake for efficient build management and integration of machine learning libraries.",
+            "Conducted data preprocessing and augmentation to improve model robustness and generalization.",
+            "Collaborated with a team to integrate face recognition capabilities into existing applications, enhancing security and user authentication processes."
+        ]
+    },
+    
+    {
+        "title": "Software Engineering Intern",
+        "company_name": "Dinify",
+        "icon": dinifyLogo, // Updated icon
+        "iconBg": "#accbe1",
+        "date": "November 2023 - January 2024",
+        "points": [
+            "Designed and developed user interfaces with Figma, ensuring intuitive and engaging user experiences.",
+            "Built and maintained frontend applications using React, delivering high-performance web solutions.",
+            "Implemented backend systems with the MERN stack, ensuring seamless data flow and integration.",
+            "Developed and integrated machine learning models to enhance application functionality and user experience."
+        ]
+    },
+    
+    {
+        "title": "Frontend Developer",
+        "company_name": "Tirth.co",
+        "icon": tirthLogo, // Updated icon
+        "iconBg": "#accbe1",
+        "date": "November 2023 - December 2023",
+        "points": [
+            "Developed fast, scalable websites using Next.js features such as Server-Side Rendering (SSR) and Static Site Generation (SSG).",
+            "Styled components with CSS, ensuring a responsive and visually appealing design.",
+            "Enhanced code reliability and maintainability by utilizing TypeScript.",
+            "Deployed applications across various platforms, optimizing performance and ensuring seamless user experiences."
+        ]
+    },
+      
+    
+    {
+        "title": "Full-Stack Developer",
+        "company_name": "Singlebit",
+        "icon": singlebitLogo, // Updated icon
+        "iconBg": "#accbe1",
+        "date": "June 2023 - March 2024",
+        "points": [
+            "Developed and maintained web applications using the MERN stack (MongoDB, Express, React, Node.js) to deliver comprehensive solutions for clients.",
+            "Utilized Next.js to enhance performance and SEO through Server-Side Rendering (SSR) and Static Site Generation (SSG).",
+            "Integrated frontend and backend systems, ensuring smooth data flow and robust functionality.",
+            "Collaborated with cross-functional teams to gather requirements, design solutions, and deliver high-quality products on time."
+        ]
+    },
+    
+];
 export const socialLinks = [
     {
         name: 'Contact',
@@ -173,56 +184,46 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/maiharshrivastava',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/maihar-shrivastava-608358248',
     }
 ];
-
 export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Restaurant Menu',
+        description: 'Designed and implemented a dynamic restaurant menu using React, offering users a visually appealing interface to explore dishes categorized with enticing descriptions. Incorporated features such as filtering and searching for enhanced user experience. Employed animations to engage users and ensure a seamless browsing experience. Additionally, enabled easy customization for restaurant owners to dynamically update menu items and prices, empowering them to adapt to changing preferences and requirements effortlessly.',
+        link: 'https://github.com/maiharshrivastava/Restuarant.git',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Chat App',
+        description: 'Developed a feature-rich chat application with React, allowing users to set their availability status and engage in real-time messaging facilitated by Socket.io/Firebase. Implemented robust user authentication mechanisms to ensure secure access to the platform. Enhanced user profiles with personalized information and pictures for a more engaging experience. Ensured responsive design for seamless usage across various devices, catering to diverse user preferences.',
+        link: 'https://github.com/maiharshrivastava/chat_app.git',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
+        name: 'Cover Letter Generator',
+        description: 'Streamlined the cover letter creation process by leveraging advanced NLP algorithms to tailor templates for diverse job roles. Created a user-friendly interface for crafting personalized cover letters effortlessly, maximizing success rates in job applications. Revolutionized professional communication by offering users a glimpse into the future of cover letter creation.',
         link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Blog App',
+        description: 'Developed a comprehensive MERN-based blog application enabling users to efficiently manage profiles and perform CRUD operations on blog posts. Implemented intuitive UI elements for seamless navigation and interaction. Ensured user authentication for secure access to profiles and data. Employed responsive design principles to optimize accessibility across devices, offering users a seamless blogging experience.',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Movie Recommendation System',
+        description: 'Crafted a sophisticated movie recommendation system utilizing machine learning techniques such as cosine similarity to tailor film suggestions to individual user preferences, providing a personalized viewing journey. Seamlessly integrated the system with Flask, ensuring smooth interaction and deployment. Additionally, contributed to the development of a cover letter generator using language modeling techniques, enhancing professional communication capabilities.',
     }
 ];
