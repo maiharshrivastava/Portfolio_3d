@@ -3,6 +3,8 @@ import mapitbhopalLogo from "../assets/images/mapitbhopal_logo.jpg";
 import dinifyLogo from "../assets/images/D.jpg";
 import tirthLogo from "../assets/images/1695973282682.jpg";
 import singlebitLogo from "../assets/images/WhatsApp Image 2024-05-19 at 1.55.56 PM.jpeg";
+import frintLogo from "../assets/images/frint_in_logo.jpg";
+import kairosoftLogo from "../assets/images/kairosoft logo.jpg";
 
 
 import {
@@ -117,24 +119,48 @@ export const skills = [
 
 export const experiences = [
     {
+        "title": "Python Developer",
+        "company_name": "Kairosoft AI Solutions Limited",
+        "icon": kairosoftLogo,
+        "iconBg": "#accbe1",
+        "date": "January 2025 - Present",
+        "points": [
+            "Developed and fine-tuned Mistral-7B and LLaMA-12B models using Unsloth, optimizing chatbot performance both online and offline.",
+            "Implemented web scraping for real-time data retrieval, enhancing AI model training with fresh data.",
+            "Deployed AI solutions on Digital Ocean using a Docker-based pipeline for scalable production environments.",
+            "Integrated AI models with Volkai.io for enhanced chatbot automation and personalized user interactions."
+        ]
+    },
+    {
+        "title": "Full Stack AI Intern",
+        "company_name": "Frint",
+        "icon": frintLogo,
+        "iconBg": "#accbe1",
+        "date": "August 2024 - October 2024",
+        "points": [
+            "Developed and deployed Applicant Tracking System (ATS) features using FAST API, improving recruitment workflow efficiency.",
+            "Worked on integrating OpenAI LLM with FastAPI to enhance application functionality.",
+            "Built responsive user interfaces for seamless interaction with AI-powered systems.",
+            "Collaborated with cross-functional teams to implement and optimize AI-driven features."
+        ]
+    },
+    {
         "title": "Machine Learning Intern",
         "company_name": "IT State Center, Bhopal",
-        "icon": mapitbhopalLogo, // Updated icon
-
+        "icon": mapitbhopalLogo,
         "iconBg": "#accbe1",
-        "date": "May 2024",
+        "date": "May 2024 - July 2024",
         "points": [
-            "Developed and fine-tuned face recognition models using OpenCV, dlib, and the face_recognition library to achieve high accuracy and performance.",
-            "Implemented CMake for efficient build management and integration of machine learning libraries.",
+            "Optimized machine learning models for real-time performance in facial recognition systems.",
+            "Implemented face detection and recognition pipelines using OpenCV and deep learning architectures like MobileNet, GoogleNet, and Inception-ResNet.",
             "Conducted data preprocessing and augmentation to improve model robustness and generalization.",
             "Collaborated with a team to integrate face recognition capabilities into existing applications, enhancing security and user authentication processes."
         ]
     },
-    
     {
         "title": "Software Engineering Intern",
         "company_name": "Dinify",
-        "icon": dinifyLogo, // Updated icon
+        "icon": dinifyLogo,
         "iconBg": "#accbe1",
         "date": "November 2023 - January 2024",
         "points": [
@@ -144,11 +170,10 @@ export const experiences = [
             "Developed and integrated machine learning models to enhance application functionality and user experience."
         ]
     },
-    
     {
         "title": "Frontend Developer",
         "company_name": "Tirth.co",
-        "icon": tirthLogo, // Updated icon
+        "icon": tirthLogo,
         "iconBg": "#accbe1",
         "date": "November 2023 - December 2023",
         "points": [
@@ -158,12 +183,10 @@ export const experiences = [
             "Deployed applications across various platforms, optimizing performance and ensuring seamless user experiences."
         ]
     },
-      
-    
     {
         "title": "Full-Stack Developer",
         "company_name": "Singlebit",
-        "icon": singlebitLogo, // Updated icon
+        "icon": singlebitLogo,
         "iconBg": "#accbe1",
         "date": "June 2023 - March 2024",
         "points": [
@@ -172,9 +195,9 @@ export const experiences = [
             "Integrated frontend and backend systems, ensuring smooth data flow and robust functionality.",
             "Collaborated with cross-functional teams to gather requirements, design solutions, and deliver high-quality products on time."
         ]
-    },
-    
+    }
 ];
+
 export const socialLinks = [
     {
         name: 'Contact',
